@@ -1,8 +1,12 @@
 package practice;
 
+import org.testng.annotations.Test;
+
 public class PassCase {
 
-	public static void main(String[] args) {
+@Test
+
+public void testcase2() {
 		
 		int a = 10;
 		int b = 20;
