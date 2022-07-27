@@ -1,0 +1,19 @@
+package practice;
+
+public class FailCase {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		int b = 20;
+		int c= a+b;
+		if(c==30) {
+			System.out.println("passing case");
+		}
+		else {
+			System.out.println("failing case");
+		}
+
+	}
+
+}
